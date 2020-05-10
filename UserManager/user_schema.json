@@ -1,0 +1,23 @@
+{"FullUserSchema": {
+    "id": "/FullUser",
+    "type": "object",
+    "properties": {
+    	"username": {"type": "string"},
+		"email": {"type": "string"},
+		"fullname": {"type": "string"},
+    	"EventTypeInterest": {"type": "array",
+    		"items": {
+    			  "type": "object",
+    			  "properties": 	{
+    				  	"EventType": {"type": "string"},
+    				  	"InterestLevel": {"type": "string"}
+    		        	},
+    		       	 "required": [ "EventType", "InterestLevel" ]
+      				}
+    	  		},
+    	"country" : {"type": "string"},
+    	"languagePref" : {"type": "string", "default": "English"}
+		},
+       	"required": [ "username", "email","fullname"]
+	}
+}

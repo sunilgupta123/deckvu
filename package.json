@@ -1,0 +1,21 @@
+{
+  "name": "nodetest2",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "mail-listener4": "^1.1.3",
+    "mailparser": "^2.4.3",
+    "mongodb": "^3.0.5",
+    "mongos": "0.0.0",
+    "monk": "^6.0.6",
+    "morgan": "^1.9.1"
+  }
+}
